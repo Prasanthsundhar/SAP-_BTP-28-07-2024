@@ -83,15 +83,34 @@
           "target": [
             "TargetView1"
           ]
-        }
+        },
+        {
+          "name": "dashboard",
+          "pattern": "dashboard",
+          "target": [
+              "Dashboard"
+          ]
+      }
       ],
       "targets": {
+        "AppUnified": {
+          "viewName": "AppUnified"
+      },
         "TargetView1": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "View1",
-          "viewName": "View1"
+          "viewId": "Login",
+          "viewName": "Login"
+        },
+        "Dashboard": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Dashboard",
+          "viewName": "Dashboard",
+          "parent": "AppUnified",
+          "controlId": "pageContainer"
         }
       }
     },

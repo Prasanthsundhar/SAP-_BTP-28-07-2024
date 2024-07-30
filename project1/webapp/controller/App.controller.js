@@ -1,12 +1,14 @@
 sap.ui.define(
     [
-        "sap/ui/core/mvc/Controller"
+      // "com/uisample/project1/controller/BaseController",
+       "sap/ui/core/mvc/Controller"
     ],
-    function(BaseController) {
+    function( Controller) {
       "use strict";
   
-      return BaseController.extend("com.uisample.project1.controller.App", {
+      return Controller.extend("com.uisample.project1.controller.App", {
         onInit: function() {
+       
         }
       });
     }

@@ -5,9 +5,10 @@
 sap.ui.define([
         "sap/ui/core/UIComponent",
         "sap/ui/Device",
-        "com/uisample/project1/model/models"
+        "com/uisample/project1/model/models",
+        "sap/ui/model/json/JSONModel"
     ],
-    function (UIComponent, Device, models) {
+    function (UIComponent, Device, models, JSONModel, IconPool) {
         "use strict";
 
         return UIComponent.extend("com.uisample.project1.Component", {

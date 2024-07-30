@@ -1,1 +1,7 @@
 /* Enter your custom styles here */
+.login_background {
+    background-image: url("../images/colorful-bird-gradient-illustration-logo-concept_1253202-5761.avif"); 
+    background-size: contain !important;
+    background-position: top !important;
+    background-repeat: no-repeat;
+  }

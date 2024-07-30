@@ -1,0 +1,46 @@
+<mvc:View controllerName="com.uisample.project1.controller.Dashboard"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:card="sap.f.cards"
+    xmlns:l="sap.ui.layout"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:fb="sap.ui.comp.filterbar"
+    xmlns:vm="sap.ui.comp.variants"
+    xmlns:w="sap.ui.integration.widgets"
+    xmlns:cssgrid="sap.ui.layout.cssgrid"
+    xmlns:micro="sap.suite.ui.microchart"
+    xmlns:u="sap.uxap"
+    xmlns:tnt="sap.tnt"
+    xmlns:grid="sap.ui.layout.cssgrid"
+    xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+  
+            <!-- <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" press="press">
+                <TileContent unit="Unit" footer="Footer Text">
+                    <NumericContent value="1762" icon="sap-icon://line-charts" withMargin="false" />
+                </TileContent>
+            </GenericTile>
+
+            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" press="press">
+                <TileContent unit="Unit" footer="Footer Text">
+                    <NumericContent value="12" withMargin="false" />
+                </TileContent>
+            </GenericTile> -->
+            <l:HorizontalLayout>
+                <!-- <SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop"> -->
+                    <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Book Details" subheader="Expenses" press="onPressBookDetails">
+                        <TileContent unit="Unit" footer="Footer Text">
+                            <NumericContent value="1762" icon="sap-icon://line-charts" withMargin="false" />
+                        </TileContent>
+                    </GenericTile>
+                
+                    <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Order Book" subheader="Expenses" press="onPressOrderBook">
+                        <TileContent unit="Unit" footer="Footer Text">
+                            <NumericContent value="12" withMargin="false" />
+                        </TileContent>
+                    </GenericTile>
+                <!-- </SlideTile> -->
+            </l:HorizontalLayout>
+  
+</mvc:View>
